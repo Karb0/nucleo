@@ -27,7 +27,7 @@ class TestNucleo < Minitest::Test
   end
 
   def test_7
-    assert_equal Nucleo.new("ATGCTTCAGAAAAGGTCAGCG").symb_count, "7 3 6 4"
+    assert_equal Nucleo.new("ATGCTTCAGAAAAGGTCAGCG").symb_count, "7 4 6 4"
   end
 
 end

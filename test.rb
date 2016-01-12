@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 
-class TestNucleo < Minitest::test
+class TestNucleo < Minitest::Test
 
   def test_1
     assert_equal Nucleo.new("AA").symb_count, "2 0 0 0"
